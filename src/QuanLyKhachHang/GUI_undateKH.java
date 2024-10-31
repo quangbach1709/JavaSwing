@@ -10,6 +10,7 @@ public class GUI_undateKH extends JFrame {
     private JButton btnSearch, btnUpdate;
     private XLKH xlkh;
 
+
     public GUI_undateKH() {
         xlkh = new XLKH();
         setTitle("Quan Ly Khach Hang");
@@ -110,6 +111,7 @@ public class GUI_undateKH extends JFrame {
         model.setRowCount(0);
         model.addRow(new Object[]{
                 kh.getSoTK(), kh.getHoTen(), kh.getGT(), kh.getDiaChi(), kh.getSoDu()
+
         });
 
 
