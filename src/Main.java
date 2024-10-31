@@ -5,6 +5,7 @@ import QuanLyCanBo.Test_insertCb;
 import QuanLyDiem.GUI_insertHV;
 import QuanLyKhachHang.GUI_undateKH;
 import QuanLyLuong.GUI_updateNV;
+import QuanLySach.GUI_findSA;
 import QuanLyTuyenSinh.GUI_insertTS;
 
 import java.util.Arrays;
@@ -17,7 +18,8 @@ public class Main {
 //        new GUI_undateKH();
 //        new GUI_updateNV();
 //        new GUI_insertTS();
-        new GUI_insertHV();
+//        new GUI_insertHV();
+        new GUI_findSA();
     }
 
 
